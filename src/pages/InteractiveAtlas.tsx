@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Map, Layers, Satellite, TreePine, Users, AlertTriangle, ZoomIn, ZoomOut, RotateCcw, Download } from 'lucide-react';
 
 export default function InteractiveAtlas() {
