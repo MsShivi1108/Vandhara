@@ -13,8 +13,8 @@ export default function QuickActions({ onNewClaim, onSurveyAreas, onAnalytics }:
 
   const actions = [
     { name: t('quickActions.newClaim'), icon: FileText, color: 'emerald', onClick: onNewClaim },
-    { name: t('quickActions.uploadData'), icon: Upload, color: 'blue', onClick: () => {} },
-    { name: t('quickActions.manageUsers'), icon: Users, color: 'amber', onClick: () => {} },
+    // { name: t('quickActions.uploadData'), icon: Upload, color: 'blue', onClick: () => {} },
+    // { name: t('quickActions.manageUsers'), icon: Users, color: 'amber', onClick: () => {} },
     { name: t('quickActions.surveyAreas'), icon: MapPin, color: 'red', onClick: onSurveyAreas },
     { name: t('quickActions.analytics'), icon: BarChart3, color: 'cyan', onClick: onAnalytics }
   ];
