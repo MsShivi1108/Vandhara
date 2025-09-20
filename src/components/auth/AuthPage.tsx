@@ -49,7 +49,7 @@ export default function AuthPage() {
         {/* Logo and Title */}
         <div className="text-center mb-8">
           <div className="rounded-full inline-block mb-1 h-20 w-20">
-            <img src="/public/logo.jpg" alt="logo" />
+            <img src="/logo.jpg" alt="logo" />
           </div>
           <h1 className="text-3xl font-bold text-white mb-2">FRA Atlas</h1>
           <p className="text-gray-400">AI-Powered Forest Rights Monitoring</p>
